@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/displayBookingDateandTime"
+        android:layout_width="291dp"
+        android:layout_height="36dp"
+        android:layout_margin="25dp"
+        android:textColor="@color/teal_700"
+        android:hint="Date and Day"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/displayStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Date and Day" />
+
+        <TextView
+            android:id="@+id/displayBookingGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="@color/purple_200"
+            android:hint="Date and Day" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="Rate this Exercise"
+        android:textColor="@color/purple_200" />
+
+<!--    <RatingBar-->
+<!--        android:id="@+id/ratingBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:numStars="5" />-->
+    <RadioGroup
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/verySatisfied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Very Satisfied"
+            android:text="Very Satisfied"
+            android:checked="true"
+             />
+
+        <RadioButton
+            android:id="@+id/satisfied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Satisfied"
+            android:text="Satisfied"
+            />
+
+        <RadioButton
+            android:id="@+id/OK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Very Satisfied"
+            android:text="OK"
+             />
+        <RadioButton
+            android:id="@+id/disatisfied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Very Satisfied"
+            android:text="Disatisfied"
+             />
+        <RadioButton
+            android:id="@+id/veryDisatisfied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Very Satisfied"
+            android:text="Very disatisfied"
+             />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/RateNow"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Save" />
+
+</LinearLayout>

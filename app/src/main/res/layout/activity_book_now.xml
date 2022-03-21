@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BookNow">
+
+    <TextView
+
+        android:layout_width="323dp"
+        android:layout_height="39dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="Book Exercise Now"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/DateandTime"
+        android:layout_width="323dp"
+        android:layout_height="39dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/teal_700"
+        android:hint="Your Bookings"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="199dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:hint="Booked"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/GameType"
+        android:layout_width="323dp"
+        android:layout_height="39dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="Your Bookings"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/DisplayErr"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:hint=""
+        android:textColor="#A81313"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/BtnBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Book Now"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

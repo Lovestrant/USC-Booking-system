@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".PrintReports">
+
+
+    <Button
+        android:id="@+id/consolePrint"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="Print Report in Console:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="291dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/teal_700"
+        android:text="Report of the past Bookings and Ratings:"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Enter exercise to search.."
+            android:textColor="@color/teal_700"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Search"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/printReport"
+        android:layout_width="358dp"
+        android:layout_height="65dp"
+        android:layout_margin="25dp"
+        android:text="Report of the past Bookings and Ratings:"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
