@@ -1,6 +1,6 @@
 The USC Booking System Documentation
 
-
+![alt text](https://github.com/Lovestrant/Amba-Digital-HSApp-pics/blob/main/pic1.png)
  
 USAGE
 On Login
